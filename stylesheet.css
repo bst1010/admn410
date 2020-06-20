@@ -1,0 +1,105 @@
+body {
+width: 890px;
+margin: 0 auto;
+Font: 12pt/1.5em "Times New Roman", Times, serif;
+background-color: lightgreen;
+}
+
+header {
+}
+
+h1{
+font-size: 50px;
+font-family: Arial, Helvecta, sans serif;
+text-align: center;
+color: darkgreen;
+line-height: 60px;
+}
+
+h2 {
+font-size: 35px;
+font-family: Arial, Helvecta, sans serif; 
+text-align: center;
+text-transform: uppercase;
+color: white;
+line-height: 50px;
+}
+
+h3 {
+font-size: 20px;
+font-family: Arial, Helvecta, sans serif; 
+text-align: center;
+color: gray;
+line-height: 60px;
+}
+
+aside {
+float: left;
+width: 430px;
+min-height: 480px;
+padding-right: 10px;
+padding-top: 10px;
+text-align: justify;
+}
+
+section {
+float: right;
+width: 430px;
+min-height: 480px;
+padding-left: 10px;
+border-left: 5px dotted darkgreen;
+text-align: justify;
+}
+
+nav {
+display: block;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: white;
+border-radius: 20px;}
+li {
+float: left;}
+li a {
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover:not(.active) {
+background-color: white;
+}
+.active {
+background-color: mediumseagreen;
+}
+
+footer {
+clear: both;
+width: 890px;
+height: 80px;
+text-align: center;
+}
+
+#footer-image {
+height: 70px;
+width: 70px;
+}
+
+.left2 {
+float: left;
+padding: 20px;
+height: 300px;
+width: 300px;
+}
+
+.left {
+float: left;
+padding: 20px;
+height: 200px;
+width: 200px;
+}
